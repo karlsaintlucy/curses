@@ -1,0 +1,11 @@
+{
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportMissingTypeStubs": "none",
+    "reportWildcardImportFromLibrary": "none"
+  },
+  "pylint.args": [
+    "--disable=C0114,C0116",
+    "--disable=E0401",
+    "--disable=W0401,W0614,W0622"
+  ]
+}
