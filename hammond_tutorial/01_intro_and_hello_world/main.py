@@ -4,7 +4,13 @@ from unicurses import *
 
 
 def main() -> None:
-    raise NotImplementedError
+
+    stdscr = initscr()  # pylint: disable=W0612
+
+    addstr("Hello World!")
+    getch()
+
+    endwin()
 
 
 if __name__ == "__main__":
