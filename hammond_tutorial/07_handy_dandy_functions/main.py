@@ -2,8 +2,6 @@
 
 from unicurses import *
 
-LINE_1_START: tuple[int, int] = (0, 0)
-
 
 def main() -> None:
 
