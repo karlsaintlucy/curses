@@ -1,6 +1,8 @@
 {
   "python.analysis.diagnosticSeverityOverrides": {
     "reportMissingTypeStubs": "none",
+    "reportUnknownArgumentType": "none",
+    "reportUnknownVariableType": "none",
     "reportUnusedVariable": "none",
     "reportWildcardImportFromLibrary": "none"
   },
