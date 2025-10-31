@@ -38,6 +38,9 @@ def main(stdscr: c_void_p) -> None:  # pylint: disable=W0613
     vline(ACS_VLINE, 10)
     hline(ACS_HLINE, 10)
 
+    # mvwvline()
+    # mvwhline()
+
     attroff(magenta)
 
     running: bool = True
